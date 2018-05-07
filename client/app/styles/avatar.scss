@@ -1,0 +1,24 @@
+.avatar {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  .author-tooltip {
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    width: 200px;
+    font-size: small;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 5px;
+    z-index: 1000;
+    .author {
+      background-color: antiquewhite;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
